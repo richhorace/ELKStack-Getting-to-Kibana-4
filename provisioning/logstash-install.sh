@@ -7,7 +7,7 @@ FILES=/vagrant/provisioning/files
 dpkg -i ${FILES}/logstash_1.4.2-1-2c0f5a1_all.deb
 
 # Copy logstash Config 
-cp ${FILES}/nyc_pedfatals.conf /etc/logstash/conf.d/
+cp ${FILES}/logstash-nyc_pedfatals.conf /etc/logstash/conf.d/
 
 # Start Logstash
 update-rc.d apache2 defaults 95 10

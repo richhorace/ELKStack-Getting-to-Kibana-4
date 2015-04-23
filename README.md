@@ -1,6 +1,6 @@
 # ELKStack-Getting-to-Kibana-4
 
-Vagrant Configuration used during my Elastic User Group Meetup talk.
+Vagrant Configuration used during my Elastic User Group Meetup talk on 4/22/2015.
 
 Traversing the migration path from Kibana 3 to Kibana 4 can be tricky, challenging and a little frustrating, 
 but without a doubt it's worth it.  The goal of this presentation will be to review the challenges, 
