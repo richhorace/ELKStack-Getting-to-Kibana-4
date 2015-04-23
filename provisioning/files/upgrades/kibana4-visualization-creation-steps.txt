@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Setup Index:
+-------------------------------------------------------------------------------
+Select Setting tab
+In Index name or pattern Box type: nyc_visionzero
+
+-------------------------------------------------------------------------------
+Discovery Tab:
+-------------------------------------------------------------------------------
+Change Time Filter
+Select Last 5 Years
+
+Create Saved Searches:
+-
+
+-------------------------------------------------------------------------------
+Visual Tab:
+-------------------------------------------------------------------------------
+- Select Metric (Killed)
+Metrics:
+Aggregation: Sum
+Field: number_of_persons_killed
+
+Repeat for each number killed
+
+- Select Pie (Reasons for Death)
+Add Aggregation
+metrics-Slice Size: Count
+bucket-Split Slices-Aggregation: Terms
+bucket-Split Slices-Field: contributing_factor_vehicle
+bucket-Split Slices-Order: Top Size: 5
+bucket-Split Slices-Order by : metric: Count
+Exclude: Unspecified
+
+- Select Linechart (Death Counts Over Time)
+metrics-Y-Axis: Count
+bucket-X-Axis-Aggregation: Date Histogram
+bucket-X-Axis-Field: @timestamp
+
+
+

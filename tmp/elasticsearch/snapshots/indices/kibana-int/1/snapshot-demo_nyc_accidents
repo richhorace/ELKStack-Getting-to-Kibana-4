@@ -1,0 +1,33 @@
+{
+  "name" : "demo_nyc_accidents",
+  "index_version" : 12,
+  "start_time" : 1408748966914,
+  "time" : 11,
+  "number_of_files" : 4,
+  "total_size" : 16440,
+  "files" : [ {
+    "name" : "__0",
+    "physical_name" : "_0.cfs",
+    "length" : 15666,
+    "checksum" : "dnfg4l",
+    "written_by" : "LUCENE_4_9"
+  }, {
+    "name" : "__1",
+    "physical_name" : "segments_c",
+    "length" : 127,
+    "checksum" : "1w5nnln",
+    "written_by" : "LUCENE_4_9"
+  }, {
+    "name" : "__2",
+    "physical_name" : "_0.cfe",
+    "length" : 365,
+    "checksum" : "1li8ewj",
+    "written_by" : "LUCENE_4_9"
+  }, {
+    "name" : "__3",
+    "physical_name" : "_0.si",
+    "length" : 282,
+    "checksum" : "7utczv",
+    "written_by" : "LUCENE_4_9"
+  } ]
+}

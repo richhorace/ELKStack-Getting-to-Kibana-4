@@ -1,0 +1,363 @@
+{
+  "name" : "demo_nyc_accidents",
+  "index_version" : 23,
+  "start_time" : 1408748962117,
+  "time" : 2378,
+  "number_of_files" : 59,
+  "total_size" : 50332309,
+  "files" : [ {
+    "name" : "__0",
+    "physical_name" : "_21.si",
+    "length" : 465,
+    "checksum" : "kp2brd",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1",
+    "physical_name" : "_21_es090_0.blm",
+    "length" : 23078,
+    "checksum" : "dhollg",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__2",
+    "physical_name" : "_21.fdt",
+    "length" : 4455053,
+    "checksum" : "18jvt9u",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__3",
+    "physical_name" : "_35.si",
+    "length" : 285,
+    "checksum" : "1v37ool",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__4",
+    "physical_name" : "_2l.fdt",
+    "length" : 2533147,
+    "checksum" : "x75a27",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__5",
+    "physical_name" : "_2l_es090_0.doc",
+    "length" : 761395,
+    "checksum" : "1bcfgbv",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__6",
+    "physical_name" : "_21_es090_0.doc",
+    "length" : 1436407,
+    "checksum" : "1jzplw4",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__7",
+    "physical_name" : "_2l.fdx",
+    "length" : 1700,
+    "checksum" : "1rsvrbs",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__8",
+    "physical_name" : "_21_Lucene45_0.dvm",
+    "length" : 78,
+    "checksum" : "v40zw7",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__9",
+    "physical_name" : "_2l_es090_0.blm",
+    "length" : 13134,
+    "checksum" : "1xmnm67",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__a",
+    "physical_name" : "_14.fdx",
+    "length" : 3600,
+    "checksum" : "bcpcg9",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__b",
+    "physical_name" : "_14_es090_0.doc",
+    "length" : 1622010,
+    "checksum" : "16ed6th",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__c",
+    "physical_name" : "_2l.fnm",
+    "length" : 3755,
+    "checksum" : "nb3zvb",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__d",
+    "physical_name" : "_21.fdx",
+    "length" : 3192,
+    "checksum" : "mszl2d",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__e",
+    "physical_name" : "_37.cfe",
+    "length" : 365,
+    "checksum" : "ppxnm",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__f",
+    "physical_name" : "_36.fnm",
+    "length" : 3755,
+    "checksum" : "nb3zvb",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__g",
+    "physical_name" : "_14.fdt",
+    "length" : 4947880,
+    "checksum" : "1grde46",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__h",
+    "physical_name" : "_21_Lucene45_0.dvd",
+    "length" : 50,
+    "checksum" : "1k5pax1",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__i",
+    "physical_name" : "_2l.nvm",
+    "length" : 62,
+    "checksum" : "1h57g92",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__j",
+    "physical_name" : "_36_Lucene45_0.dvd",
+    "length" : 48,
+    "checksum" : "dzjieh",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__k",
+    "physical_name" : "_2l.si",
+    "length" : 465,
+    "checksum" : "eorquk",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__l",
+    "physical_name" : "_36_Lucene45_0.dvm",
+    "length" : 77,
+    "checksum" : "1sx9q0m",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__m",
+    "physical_name" : "segments_n",
+    "length" : 373,
+    "checksum" : "rd72r2",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__n",
+    "physical_name" : "_36_es090_0.blm",
+    "length" : 16558,
+    "checksum" : "1drqhfz",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__o",
+    "physical_name" : "_21.nvm",
+    "length" : 62,
+    "checksum" : "1h57g92",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__p",
+    "physical_name" : "_14_es090_0.pos",
+    "length" : 1235723,
+    "checksum" : "ij6gbt",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__q",
+    "physical_name" : "_2l.nvd",
+    "length" : 10942,
+    "checksum" : "18964ln",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__r",
+    "physical_name" : "_2l_Lucene45_0.dvd",
+    "length" : 48,
+    "checksum" : "dzjieh",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__s",
+    "physical_name" : "_21.nvd",
+    "length" : 19245,
+    "checksum" : "1szcfhb",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__t",
+    "physical_name" : "_36.fdx",
+    "length" : 2313,
+    "checksum" : "14jnsf5",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__u",
+    "physical_name" : "_36.fdt",
+    "length" : 3205397,
+    "checksum" : "mjcboa",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__v",
+    "physical_name" : "_14.fnm",
+    "length" : 3755,
+    "checksum" : "nb3zvb",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__w",
+    "physical_name" : "_14_Lucene45_0.dvm",
+    "length" : 78,
+    "checksum" : "zi0dsc",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__x",
+    "physical_name" : "_36.nvd",
+    "length" : 13798,
+    "checksum" : "mfmoe3",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__y",
+    "physical_name" : "_2l_Lucene45_0.dvm",
+    "length" : 77,
+    "checksum" : "1otwn2z",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__z",
+    "physical_name" : "_2l_es090_0.tim",
+    "length" : 4457836,
+    "checksum" : "1oj7pdp",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__10",
+    "physical_name" : "_21_es090_0.pos",
+    "length" : 1109540,
+    "checksum" : "yqafmy",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__11",
+    "physical_name" : "_14_Lucene45_0.dvd",
+    "length" : 50,
+    "checksum" : "1k5pax1",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__12",
+    "physical_name" : "_2l_es090_0.pos",
+    "length" : 647910,
+    "checksum" : "b6z3ck",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__13",
+    "physical_name" : "_36.nvm",
+    "length" : 62,
+    "checksum" : "1h57g92",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__14",
+    "physical_name" : "_36_es090_0.doc",
+    "length" : 986783,
+    "checksum" : "nkvpbh",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__15",
+    "physical_name" : "_2l_es090_0.tip",
+    "length" : 50887,
+    "checksum" : "1dnvg7h",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__16",
+    "physical_name" : "_35.cfs",
+    "length" : 591134,
+    "checksum" : "1svr125",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__17",
+    "physical_name" : "_35.cfe",
+    "length" : 365,
+    "checksum" : "15yku0z",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__18",
+    "physical_name" : "_37.si",
+    "length" : 285,
+    "checksum" : "6hom0f",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__19",
+    "physical_name" : "_14.nvd",
+    "length" : 21590,
+    "checksum" : "18esiqq",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1a",
+    "physical_name" : "_14.si",
+    "length" : 465,
+    "checksum" : "1jxku3j",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1b",
+    "physical_name" : "_14.nvm",
+    "length" : 62,
+    "checksum" : "1h57g92",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1c",
+    "physical_name" : "_21_es090_0.tim",
+    "length" : 7293994,
+    "checksum" : "nidzus",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1d",
+    "physical_name" : "_21_es090_0.tip",
+    "length" : 80572,
+    "checksum" : "1k4mk9n",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1e",
+    "physical_name" : "_37.cfs",
+    "length" : 291000,
+    "checksum" : "1vx8yp9",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1f",
+    "physical_name" : "_14_es090_0.tip",
+    "length" : 86194,
+    "checksum" : "6l5q51",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1g",
+    "physical_name" : "_36_es090_0.tip",
+    "length" : 61735,
+    "checksum" : "8vrisv",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1h",
+    "physical_name" : "_36_es090_0.tim",
+    "length" : 5434730,
+    "checksum" : "8w13q",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1i",
+    "physical_name" : "_14_es090_0.blm",
+    "length" : 25894,
+    "checksum" : "nigqyh",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1j",
+    "physical_name" : "_14_es090_0.tim",
+    "length" : 8060064,
+    "checksum" : "4h4rp0",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1k",
+    "physical_name" : "_36.si",
+    "length" : 465,
+    "checksum" : "1xff8wd",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1l",
+    "physical_name" : "_36_es090_0.pos",
+    "length" : 808567,
+    "checksum" : "1icftac",
+    "written_by" : "LUCENE_4_8"
+  }, {
+    "name" : "__1m",
+    "physical_name" : "_21.fnm",
+    "length" : 3755,
+    "checksum" : "nb3zvb",
+    "written_by" : "LUCENE_4_8"
+  } ]
+}

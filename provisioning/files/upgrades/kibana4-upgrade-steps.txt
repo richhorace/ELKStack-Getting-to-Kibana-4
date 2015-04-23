@@ -1,0 +1,91 @@
+These steps will work you through upgrade the environment to support Kibana 4
+and Kibana 3.  Once completed you'll be running Kibana 3 and Kibana 4 in 
+parallel.  You'll be ready to create Kibana 4 Dashboards.
+
+-------------------------------------------------------------------------------
+1. SSH into Vagrant
+-------------------------------------------------------------------------------
+
+vagrant ssh
+
+-------------------------------------------------------------------------------
+2. Install Kibana 4
+-------------------------------------------------------------------------------
+
+# Copy Kibana Package to /opt
+sudo cp /vagrant/provisioning/files/upgrades/kibana-4.0.2-linux-x64.tar.gz /opt/
+cd /opt
+
+# Unzip Kibana 4 
+sudo tar -zxvf kibana-4.0.2-linux-x64.tar.gz
+cd kibana-4.0.2-linux-x64/
+
+# Check Kibana Config (Review Config - no changes necessary)
+nano config/kibana.yml
+
+# Cheating here. Easier to start screen session 
+screen -R kibana4
+./bin/kibana
+
+# Check Kibana 4
+http://localhost:5601
+
+# Did it work?  (Sorry Rhetorical....Move onto Rolling Upgrade to Elasticsearch 1.5)
+cat /etc/elasticsearch/elasticsearch.yml | grep -v "#"
+
+-------------------------------------------------------------------------------
+Rolling Upgrade to Elasticsearch 1.5
+http://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html#_1_0_and_later
+Following process as if multi-node cluster
+-------------------------------------------------------------------------------
+
+# Disable shard reallocation (optional). This is done to allow for a faster startup after cluster shutdown
+curl -XPUT localhost:9200/_cluster/settings -d '{"transient" : {"cluster.routing.allocation.enable" : "none"}}'
+
+# Shut down a single node within the cluster
+curl -XPOST 'http://localhost:9200/_cluster/nodes/_local/_shutdown'
+
+# Install ES 1.5 and Restart service
+cd /vagrant/provisioning/files/upgrades
+sudo dpkg -i elasticsearch-1.5.1.deb
+sudo service elasticsearch restart
+
+#Re-enable shard reallocation
+curl -XPUT localhost:9200/_cluster/settings -d '{"transient" : {"cluster.routing.allocation.enable" : "all"}}'
+
+# Check Head
+http://localhost:9200/_plugin/head/
+
+# Did I break Kibana 3 with ES 1.5 (Sorry Rhetorical....Move to Update) 
+
+-------------------------------------------------------------------------------
+4. Check Kibana 3
+-------------------------------------------------------------------------------
+
+http://localhost:8080/kibana/
+
+-------------------------------------------------------------------------------
+5. Update Elasticsearch.yml
+-------------------------------------------------------------------------------
+# Add CORS and disable Scripting to top of Elasticsearch.yml
+sudo nano /etc/elasticsearch/elasticsearch.yml
+
+script.disable_dynamic: true
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+
+# Restart Elasticsearch
+sudo service elasticsearch restart
+
+-------------------------------------------------------------------------------
+6. Check Kibana 3
+-------------------------------------------------------------------------------
+
+Kibana 3 
+http://localhost:8080/kibana/
+
+If still have issue restart apache
+# Restart Apache
+sudo service apache2 restart
+
+

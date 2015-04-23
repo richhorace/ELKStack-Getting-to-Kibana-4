@@ -1,0 +1,13 @@
+{
+  "name" : "demo_nyc_accidents",
+  "index_version" : 11,
+  "start_time" : 1408748962087,
+  "time" : 3,
+  "number_of_files" : 1,
+  "total_size" : 79,
+  "files" : [ {
+    "name" : "__0",
+    "physical_name" : "segments_b",
+    "length" : 79
+  } ]
+}
